@@ -3,7 +3,7 @@
     <div class="select-none mx-auto w-full h-full flex flex-col items-center pt-4">
         <h1 class="mb-10">Radio NightCore</h1>
         <div>Music: <span>{{ musicName }}</span></div>
-        <div>Listiner Count: <span>{{ listenersCount }}</span></div>
+        <div>listener Count: <span>{{ listenersCount }}</span></div>
 
         <div class="divider px-16"></div>
 
