@@ -97,7 +97,7 @@ function actionBtn() {
         isPlaying.value = false
         radio.src = ''
     } else {
-        radio.src = 'http://station.nightcore.ir/live'
+        radio.src = 'https://station.nightcore.ir/live'
 
         isLoading.value = true
         radio.play().then(() => {
@@ -111,7 +111,7 @@ function actionBtn() {
 }
 
 async function getData() {
-    const data: any = await $fetch('http://station.nightcore.ir/status-json.xsl') as ServerInfo;
+    const data: any = await $fetch('https://station.nightcore.ir/status-json.xsl') as ServerInfo;
     const serverData = data['icestats'] as ServerInfo;
 
     musicName.value = serverData.source.title;
