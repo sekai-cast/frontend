@@ -17,7 +17,8 @@
     <div class=" fixed bottom-0 inset-x-0 pb-10 flex items-center justify-center flex-col">
         <div class="text-2xl">
 
-            <span>Made By <NuxtLink class="text-warning" to="https://github.com/alix1383">Alix</NuxtLink> With</span>
+            <span>Developed By <NuxtLink class="text-warning" to="https://github.com/alix1383">Alix</NuxtLink>
+                With</span>
             <Icon class="text-red-600 ml-1" name="line-md:heart-filled" size="26px" />
         </div>
         <div class="text-xs">Project Link : <NuxtLink class="text-warning" to="https://github.com/sekai-cast">Sekai Cast
